@@ -1,10 +1,10 @@
 import Header from "./header/header";
 import Footer from "./footer/footer";
-import Container from "./container/container";
+import Container from "./container/container";  
 import Button from "./Button";
 import Input from "./Input";
-import select from "./select";
-import Logo from "./logo";
+import Select from "./select";
+import Logo from "./Logo";
 import LogoutBtn from "./header/LogoutBtn";
 import RTE from "./RTE";
 import Signup from "./Signup";
@@ -19,7 +19,7 @@ export {
     Container,
     Button,
     Input,
-    select,
+    Select,
     Logo,
     LogoutBtn,
     RTE,

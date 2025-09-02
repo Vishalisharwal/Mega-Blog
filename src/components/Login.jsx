@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 import { login as authLogin } from '../store/authSlice'
-import Logo from '../logo'
+import Logo from './Logo'
 import Input from './Input'
 import Button from "./Button"
 import {useDispatch} from "react-redux"

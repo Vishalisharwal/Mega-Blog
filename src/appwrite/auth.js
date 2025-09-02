@@ -43,9 +43,12 @@ export class AuthService{
             return await this.account.get();
         }
         catch(error){
+            if (error?.code === 401 || (error?.response && error.response.status === 401)) {
+            return null;
+            }   
             console.log("Appwrite service :: getCurrentUser :: error", error);  
+            return null; //suppose account mila hi nahi and try-catch me koi error aagyi toh iss case me null return ho jayega
         }
-        return null; //suppose account mila hi nahi and try-catch me koi error aagyi toh iss case me null return ho jayega
     }
 
     async logout(){
