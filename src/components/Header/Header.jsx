@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../container/Container';
+import Container from '../container/container';
 import Logo from '../Logo';
 import LogoutBtn from './LogoutBtn';
 import { Link, useNavigate } from 'react-router-dom';

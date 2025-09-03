@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import Container from '../components/container/Container';
+import Container from '../components/container/container';
 import Button from '../components/Button';
 import appwriteService from "../appwrite/config";
 import PostCard from '../components/PostCard';
